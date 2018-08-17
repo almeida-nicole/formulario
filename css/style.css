@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 
+    'open sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /* margin-left: 30%; */
+}
+form {
+    width: 600px;
+    margin: 0 auto;
+}
+.metade {
+    display: inline-block;
+    width: 49%;
+}
