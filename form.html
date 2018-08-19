@@ -1,4 +1,4 @@
-<!doctype <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -7,53 +7,77 @@
         <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <form action="Cadastro Finalizado.html" method="GET">
-      
-        <div>
-            <label class="metade" for="texto">Texto</label>
-            <input type="text" name="texto">
-        </div>
-        <div>
-            <label class="metade" for="senha">Senha</label>
-            <input type="password" name="senha">
-        </div>
-
-        <div>
-            <p> Escolha uma ou múltiplas opções</p>
-            <input type="checkbox" name="adjetivo" value="Mulher"> <label for="adjetivo">Mulher</label><br>
-            <input type="checkbox" name="adjetivo" value="Poderosa"><label for="adjetivo">Poderosa</label><br>
-            <input type="checkbox" name="adjetivo" value="Linda"><label for="adjetivo">Linda</label><br>
-            <input type="checkbox" name="adjetivo" value="Maravilhosa"><label for="planta">Maravilhosa</label><br>
+    <form action="obrigada.html" method="GET">
+        <div class="campos">
+            <div class="descricao metade">
+                <label for="texto">Texto</label>
             </div>
-
-        <div>
-            <p>Escolha uma opção</p>
-            <input type="radio" name="superpoder" value="super força"> <label for="superpoder">Super força</label><br>
-            <input type="radio" name="superpoder" value="ser invisivel"> <label for="superpoder">Ser invisível</label><br>
-            <input type="radio" name="superpoder" value="ler mentes"> <label for="superpoder">Ler mentes</label><br>
-            <input type="radio" name="superpoder" value="super velocidade"> <label for="superpoder">Super velocidade</label><br>
+            <div class="campo metade">
+                <input type="text" name="texto" id="texto">
+            </div>
+            <div class="descricao metade">
+                <label for="password">Senha</label>
+            </div>
+            <div class="campo metade">
+                <input type="password" name="senha" id="password">
+            </div>
         </div>
-        
-        <div>
-        <p>Selecione Dropdown</p>
-        <select><option></option></select>
+        <div class="campos">
+            <div class="descricao metade">
+                <p>Escolha uma ou múltiplas opções</p>
+            </div>
+            <div class="campo metade">
+                <input type="checkbox" name="mulher" id="mulher" value="mulher"> <label for="mulher">Mulher</label><br>
+                <input type="checkbox" name="poderosa" id="poderosa" value="poderosa"> <label for="poderosa">Poderosa</label><br>
+                <input type="checkbox" name="linda" id="linda" value="linda"> <label for="linda">Linda</label><br>
+                <input type="checkbox" name="maravilhosa" id="maravilhosa" value="maravilhosa"> <label for="maravilhosa">Maravilhosa</label><br>
+            </div>
         </div>
-
-        <div>
-            <p class="metade">Escolha um valor</p>     
-            <select name="valor" multiple></select>
-            <option value="valor"></option>   
+        <div class="campos">
+            <div class="descricao metade">
+                <p>Escolha uma opção</p>
+            </div>
+            <div class="campo metade">
+                <input type="radio" name="options" id="super-forca" value="super_forca"> <label for="super-forca">Super Força</label><br>
+                <input type="radio" name="options" id="ser-invisivel" value="ser_invisivel"> <label for="ser-invisivel">Ser Invisível</label><br>
+                <input type="radio" name="options" id="ler-mentes" value="ler_mentes"> <label for="ler-mentes">Ler mentes</label><br>
+                <input type="radio" name="options" id="super-velocidade" value="super_velocidade"> <label for="super-velocidade">Super Velocidade</label><br>
+            </div>
         </div>
-
-        <div>
-            <label class="metade" for="comentario">Comentários</label>
-            <textarea maxlenght="100" name="comentario" rows="10"></textarea>
-        
-           </div>  
-        <div>
-            <input type="submit" value="Enviar">
-        </div>  
+        <div class="campos">
+            <div class="descricao metade">
+                <p>Selecione dropdown</p>
+            </div>
+            <div class="campo metade">
+                 <select>
+                    <option value=""></option>
+                </select>
+            </div>
+        </div>
+        <div class="campos">
+            <div class="descricao metade">
+                <p>Escolha um valor</p>
+            </div>
+            <div class="campo metade">
+                <select multiple>
+                    <option value=""></option>
+                </select>
+            </div>
+        </div>
+        <div class"campos">
+            <div class="descricao metade">
+                <p>Comentários</p>
+            </div>
+            <div class="campo metade">
+                <textarea maxlength="100"></textarea>
+            </div>
+        </div>
+        <div class="campos">
+            <div class="descricao metade"></div>
+            <div class="campo metade">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
     </form>
-    
 </body>
 </html>
