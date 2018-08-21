@@ -10,6 +10,9 @@ form {
     width: 600px;
     margin: 0 auto;
 }
+p {
+    margin: 0 auto;
+}
 .metade {
     display: inline-block;
     width: 49%;
@@ -17,6 +20,7 @@ form {
 .descricao {
     text-align: right;
     padding-right: 15px;
+    vertical-align: top;
 }
 
 .descricao, .campo {
